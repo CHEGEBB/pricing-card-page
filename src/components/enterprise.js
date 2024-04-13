@@ -10,8 +10,8 @@ const Enterprise = () => {
                 <li>Unlimited MAUs</li>
                 <li>Dedicated environment</li>
                 <li>Enterprise account administration</li>
-                <li>Custom integrations</li>
-                <li>24/7 support</li>
+                <li>Premium support and services</li>
+                <li>Contact Us</li>
             </ul>
         </div>
     );
