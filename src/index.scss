@@ -316,9 +316,10 @@ h4{
   .active-users{
     border: 2px solid #979393;
     width: 270px;
-    margin-left: 40px;
+    margin-left:20px;
     height: 60px;
     border-radius: 4px;
+    margin-top: -30px;
   }
   .active-users p{
     margin-left: 30px;
@@ -327,7 +328,7 @@ h4{
   .custom-list {
     list-style: none;
     padding-left: 10px;
-    margin-left: 18px;
+    margin-left: 10px;
   }
   .custom-list li::before {
     content: "●";
