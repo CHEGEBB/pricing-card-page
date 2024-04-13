@@ -3,7 +3,7 @@ const Starter = () => {
         <div className="starter">
             <h2>Starter</h2>
             <h1>$19</h1>
-            <ul>
+            <ul className="custom-list">
                 <li>500 MAUs</li>
                 <li>3 projects</li>
                 <li>Unlimited guides</li>
