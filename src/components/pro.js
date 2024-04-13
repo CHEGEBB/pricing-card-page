@@ -9,7 +9,7 @@ const Pro = () => {
                 <li>All starter features plus:</li>
                 <li>10 projects</li>
                 <li>Unlimited projects</li>
-                <li>Unlimited flows</li>
+                <li>Unlimited fully customizable themes</li>
                 <li>Unlimited branded themes</li>
                 <li>Priority email support</li>
             </ul>
