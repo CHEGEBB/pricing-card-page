@@ -1,13 +1,17 @@
 import React from 'react';
 import './index.scss';
-import './components/starter';
-import './components/pro';
-import './components/enterprise';
+import Starter from './components/starter';
+import Pro from './components/pro';
+import Enterprise from './components/enterprise';
 
 function App() {
   return (
     <div className="App">
     <div className="plans">
+    <Starter />
+    <Pro />
+    <Enterprise />
+    
 
     </div>
     </div>
