@@ -42,3 +42,38 @@ body {
     cursor: pointer;
   }
 }
+// Your existing styles
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.slider-bar {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #007bff;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.slide-right {
+  transform: translateX(100%);
+}
+
+.slider button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.slider button.active {
+  background-color: #007bff;
+}
