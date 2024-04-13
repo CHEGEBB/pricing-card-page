@@ -7,7 +7,7 @@ $font-family: 'Open Sans', sans-serif;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 350px;
-  height:500px;
+  height:520px;
 
 }
 @mixin button-active{
@@ -44,6 +44,7 @@ body {
   background-color: $body-background-color;
   color: $font-color;
   font-family: $font-family;
+  overflow: hidden;
 }
 .plans{
   display: flex;
@@ -157,4 +158,11 @@ ul{
 }
 .starter h1,.pro h1,.enterprise h1{
   @include Components-header1;
+}
+.starter button{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.pro button{
+  margin-top: -30px;
 }
