@@ -21,7 +21,7 @@ body {
   height: 100vh;
   width: 100%;
   color: #fff;
-  gap: 60px;
+  gap: 20px;
 }
 .starter,.pro,.enterprise{
   @include card-styles;

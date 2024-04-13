@@ -11,8 +11,8 @@ const Enterprise = () => {
                 <li>Dedicated environment</li>
                 <li>Enterprise account administration</li>
                 <li>Premium support and services</li>
-                <li>Contact Us</li>
             </ul>
+            <button>Contact Us</button>
         </div>
     );
 }
