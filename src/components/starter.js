@@ -8,7 +8,10 @@ const Starter = () => {
                 <li>3 projects</li>
                 <li>Unlimited guides</li>
                 <li>Unlimited flows</li>
+                <li>Unlimited branded themes</li>
+                <li>Email support</li>
             </ul>
+            <button>Choose Plan</button>
         </div>
      );
 }
