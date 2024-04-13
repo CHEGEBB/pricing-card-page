@@ -152,7 +152,7 @@ ul{
   padding: 40px;
   margin-top: -20px;
   line-height:2.5rem;
-  width: 300px;
+  width: 400px;
 }
 .starter h2,.pro h2,.enterprise h2{
 @include Components-header2;
@@ -182,4 +182,16 @@ ul{
 .active-users p{
   margin-left: 30px;
   margin-top: 15px;
+}
+.custom-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.custom-list li::before {
+  content: "●";
+  color: crimson;
+  display: inline-block;
+  width: 1em;
+  margin-right: 5px;
 }
