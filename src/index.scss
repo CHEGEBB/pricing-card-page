@@ -1,6 +1,6 @@
 $body-background-color: #1b1a1a;
 $font-color: #fff;
-$font-family: 'Roboto', sans-serif;
+$font-family: 'Open Sans', sans-serif;
 @mixin card-styles{
   background-color:  hsla(210, 17%, 14%, 1);
   border-radius: 10px;
@@ -17,10 +17,14 @@ $font-family: 'Roboto', sans-serif;
 }
 @mixin button-inactive{
  color: $font-color;
+ background-color: hsla(210, 17%, 14%, 1);
  border: 1px solid crimson;
- margin-top: 50px;
+ margin-top: 80px;
+ width: 180px;
+ height: 45px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 body {
   background-color: $body-background-color;
@@ -46,14 +50,6 @@ body {
   p{
     font-size: 1.2rem;
     margin-bottom: 10px;
-  }
-  button{
-    padding: 10px 20px;
-    border: none;
-    background-color: #fff;
-    color: #000;
-    font-size: 1rem;
-    cursor: pointer;
   }
 }
 .choice h1{
@@ -130,6 +126,6 @@ margin-top: -10px;
 button{
   @include button-inactive;
 }
-// button:hover{
-//   @include button-active;
-// }
+button:hover{
+  @include button-active;
+}
