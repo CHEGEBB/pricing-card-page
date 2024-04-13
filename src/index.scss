@@ -55,13 +55,12 @@ body {
 .toggle-container {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  margin-left: 800px;
 }
 
-.toggle-text1 {
- margin-left: 200px;
-}
-.toggle-text2 {
-  margin-left: 100px;
+.toggle-text {
+margin:20px;
 }
 
 .toggle {
@@ -69,7 +68,6 @@ body {
   display: inline-block;
   width: 60px;
   height: 34px;
-  margin-left: 500px;
 }
 
 .toggle__input {
