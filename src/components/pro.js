@@ -7,7 +7,6 @@ const Pro = () => {
             <p>2500 MAUs</p>
             <ul>
                 <li>All starter features plus:</li>
-                <li>10 projects</li>
                 <li>Unlimited projects</li>
                 <li>Unlimited fully customizable themes</li>
                 <li>A dedicated Customer Success Manager</li>
