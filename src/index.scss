@@ -21,7 +21,7 @@ body {
   height: 100vh;
   width: 100%;
   color: #fff;
-  gap: 20px;
+  gap: 0px;
 }
 .starter,.pro,.enterprise{
   @include card-styles;
@@ -42,38 +42,38 @@ body {
     cursor: pointer;
   }
 }
-// Your existing styles
-
-.slider {
-  display: flex;
-  justify-content: space-between;
+.toggle {
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #ccc;
   position: relative;
-}
-
-.slider-bar {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  background-color: #007bff;
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease-in-out;
-  border-radius: 5px;
-}
-
-.slide-right {
-  transform: translateX(100%);
-}
-
-.slider button {
-  padding: 10px 20px;
-  border: none;
-  background-color: transparent;
-  color: #fff;
-  font-size: 1rem;
   cursor: pointer;
-}
 
-.slider button.active {
-  background-color: #007bff;
+  .toggle__input {
+    display: none;
+  }
+
+  .toggle__label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .toggle__ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #007bff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out; /* Moved transition here */
+    transform: translateX(0);
+  }
+
+  &.yearly .toggle__ball {
+    transform: translateX(100%);
+  }
 }
