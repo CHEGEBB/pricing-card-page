@@ -6,7 +6,7 @@ import Enterprise from './components/enterprise';
 
 function App() {
   const [isYearly, setIsYearly] = useState(false);
-  const [currentPlan, setCurrentPlan] = useState('Starter');
+  const [currentPlan, setCurrentPlan] = useState(null);
 
   const handleToggle = () => {
     setIsYearly(!isYearly);
