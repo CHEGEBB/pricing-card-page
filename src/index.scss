@@ -22,8 +22,12 @@ $font-family: 'Open Sans', sans-serif;
  margin-top: 80px;
  width: 180px;
  height: 45px;
+ margin-left: 50px;
+ border-radius: 5px;
+ font-family: $font-family;
+ font-weight: 500;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 body {
