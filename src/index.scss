@@ -218,7 +218,7 @@ h4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 3000px;
+    height:300px;
     width: 100%;
     color: #fff;
     gap: 20px;
@@ -228,17 +228,18 @@ h4{
     align-items: center;
     flex-direction: row;
     margin-left: 0px;
+    margin-top: 200px;
   }
   .toggle-text {
     margin:20px;
-    margin-bottom: 60px;
+    margin-bottom: 960px;
   }
   .toggle {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
-    margin-top: -30px;
+    margin-top: -930px;
   }
   .toggle__input {
     display: none;
@@ -283,9 +284,6 @@ h4{
     text-align: center;
     margin-top: -5px;
   }
-  .offers{
-    margin-top: -150px;
-  }
   button{
     @include button-inactive;
   }
@@ -293,7 +291,8 @@ h4{
     @include button-active;
   }
   ul{
-    padding: 40
+    padding: 10px;
+    width: 300px;
   }
   .starter h2,.pro h2,.enterprise h2{
   @include Components-header2;
@@ -346,6 +345,7 @@ h4{
     height: 520px;
   }
   .offers{
-    margin-top: 450px;
+    margin-top: -150px;
+    margin-bottom: 300px;
   }
 }
