@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pricing-card-page/static/css/main.db70a3a8.css",
+    "main.js": "/pricing-card-page/static/js/main.a845514b.js",
+    "index.html": "/pricing-card-page/index.html",
+    "main.db70a3a8.css.map": "/pricing-card-page/static/css/main.db70a3a8.css.map",
+    "main.a845514b.js.map": "/pricing-card-page/static/js/main.a845514b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db70a3a8.css",
+    "static/js/main.a845514b.js"
+  ]
+}
