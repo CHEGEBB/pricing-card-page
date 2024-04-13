@@ -4,7 +4,9 @@ const Pro = () => {
         <div className="pro">
             <h2>Pro</h2>
             <h1>$99/month</h1>
+            <div className="active-users">
             <p>2500 MAUs</p>
+            </div>
             <ul>
                 <li>All starter features, plus:</li>
                 <li>Unlimited projects</li>
