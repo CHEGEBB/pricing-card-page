@@ -1,4 +1,4 @@
-const Starter = () => {
+const Starter = ({updateCurrentPlan}) => {
     return ( 
         <div className="starter">
             <h2>Starter</h2>
@@ -11,7 +11,7 @@ const Starter = () => {
                 <li>Unlimited branded themes</li>
                 <li>Email support</li>
             </ul>
-            <button>Choose Plan</button>
+            <button onClick={()=>updateCurrentPlan('Starter Trial.500MAUs')}>Choose Plan</button>
         </div>
      );
 }

@@ -39,8 +39,8 @@ function App() {
         </div>
 
         <div className="plans">
-          <Starter />
-          <Pro updateCurrentPlan={updateCurrentPlan} /> {/* Pass update function as prop */}
+          <Starter updateCurrentPlan={updateCurrentPlan} />
+          <Pro updateCurrentPlan={updateCurrentPlan} />
           <Enterprise />
         </div>
       </div>
