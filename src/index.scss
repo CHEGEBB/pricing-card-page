@@ -1,5 +1,6 @@
 $body-background-color: #1b1a1a;
 $font-color: #fff;
+$font-family: 'Roboto', sans-serif;
 @mixin card-styles{
   background-color:  hsla(210, 17%, 14%, 1);
   border-radius: 10px;
@@ -9,10 +10,22 @@ $font-color: #fff;
   height:450px;
 
 }
+@mixin button-active{
+  background-color: crimson;
+  color: #fff;
+  cursor: pointer;
+}
+@mixin button-inactive{
+ color: $font-color;
+ border: 1px solid crimson;
+ margin-top: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
   background-color: $body-background-color;
   color: $font-color;
+  font-family: $font-family;
 }
 .plans{
   display: flex;
@@ -114,3 +127,9 @@ margin-top: -10px;
 .offers{
   margin-top: -150px;
 }
+button{
+  @include button-inactive;
+}
+// button:hover{
+//   @include button-active;
+// }
