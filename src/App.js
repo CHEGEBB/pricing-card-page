@@ -19,7 +19,7 @@ function App() {
     </div>
     <div className="offers">
     <div className="choice">
-        <h1>Choose Your Plan</h1>
+        <h1>Choose a Plan</h1>
       </div>
 
       <div className="toggle-container">
