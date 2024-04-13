@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="App">
       <h1>Choose Your Plan</h1>
-      <div className={`toggle ${isYearly ? 'yearly' : 'monthly'}`} onClick={handleToggle}>
-        <input type="checkbox" id="toggle" className="toggle__input" checked={isYearly} readOnly />
+      <div className={`toggle ${isYearly ? 'yearly' : ''}`} onClick={handleToggle}>
+        <input type="checkbox" id="toggle" className="toggle__input" />
         <label htmlFor="toggle" className="toggle__label">
           <div className="toggle__ball"></div>
         </label>

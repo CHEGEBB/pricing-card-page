@@ -43,37 +43,41 @@ body {
   }
 }
 .toggle {
+  position: relative;
+  display: inline-block;
   width: 60px;
-  height: 30px;
-  border-radius: 15px;
+  height: 34px;
+}
+
+.toggle__input {
+  display: none;
+}
+
+.toggle__label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 34px;
   background-color: #ccc;
   position: relative;
   cursor: pointer;
+}
 
-  .toggle__input {
-    display: none;
-  }
+.toggle__ball {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #007bff;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: transform 0.3s ease-in-out;
+}
 
-  .toggle__label {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
+.toggle__input:checked + .toggle__label .toggle__ball {
+  transform: translateX(26px);
+}
 
-  .toggle__ball {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #007bff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: transform 0.3s ease-in-out; /* Moved transition here */
-    transform: translateX(0);
-  }
-
-  &.yearly .toggle__ball {
-    transform: translateX(100%);
-  }
+.toggle.yearly .toggle__ball {
+  left: calc(100% - 30px); /* Adjusted left position */
 }
