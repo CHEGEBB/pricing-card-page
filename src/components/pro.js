@@ -10,8 +10,7 @@ const Pro = () => {
                 <li>10 projects</li>
                 <li>Unlimited projects</li>
                 <li>Unlimited fully customizable themes</li>
-                <li>Unlimited branded themes</li>
-                <li>Priority email support</li>
+                <li>A dedicated Customer Success Manager</li>
             </ul>
             <button>Choose Plan</button>
         </div>
