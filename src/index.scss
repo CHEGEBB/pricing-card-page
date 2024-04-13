@@ -57,9 +57,11 @@ body {
   align-items: center;
 }
 
-.toggle-text {
- 
-  
+.toggle-text1 {
+ margin-left: 200px;
+}
+.toggle-text2 {
+  margin-left: 100px;
 }
 
 .toggle {
@@ -67,6 +69,7 @@ body {
   display: inline-block;
   width: 60px;
   height: 34px;
+  margin-left: 500px;
 }
 
 .toggle__input {
