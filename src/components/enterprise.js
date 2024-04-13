@@ -9,7 +9,7 @@ const Enterprise = () => {
                 <li>All pro features</li>
                 <li>Unlimited MAUs</li>
                 <li>Dedicated environment</li>
-                <li>Unlimited fully customizable themes</li>
+                <li>Enterprise account administration</li>
                 <li>Custom integrations</li>
                 <li>24/7 support</li>
             </ul>
