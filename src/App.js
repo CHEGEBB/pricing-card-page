@@ -17,7 +17,8 @@ function App() {
       <h3>Your Current Plan:</h3>
       {/* updated dynamically based on clicked plan */}
     </div>
-      <div className="choice">
+    <div className="offers">
+    <div className="choice">
         <h1>Choose Your Plan</h1>
       </div>
 
@@ -37,6 +38,8 @@ function App() {
         <Pro />
         <Enterprise />
       </div>
+    </div>
+      
     </div>
   );
 }
