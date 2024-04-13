@@ -1,6 +1,6 @@
 
 
-const Enterprise = () => {
+const Enterprise = ({updateCurrentPlan}) => {
     return (  
         <div className="enterprise">
             <h2>Enterprise</h2>
@@ -12,7 +12,7 @@ const Enterprise = () => {
                 <li>Enterprise account administration</li>
                 <li>Premium support and services</li>
             </ul>
-            <button>Contact Us</button>
+            <button onClick={()=>updateCurrentPlan('Enterprise Trial.Get Unlimited MAUs')}>Contact Us</button>
         </div>
     );
 }

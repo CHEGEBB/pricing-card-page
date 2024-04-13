@@ -41,7 +41,7 @@ function App() {
         <div className="plans">
           <Starter updateCurrentPlan={updateCurrentPlan} />
           <Pro updateCurrentPlan={updateCurrentPlan} />
-          <Enterprise />
+          <Enterprise updateCurrentPlan={updateCurrentPlan} />
         </div>
       </div>
     </div>

@@ -207,3 +207,137 @@ h4{
   text-align: center;
   margin-top: 10px;
 }
+// mobile view
+
+@media only screen and (max-width: 600px) {
+  .plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3000px;
+    width: 100%;
+    color: #fff;
+    gap: 20px;
+    margin-top: -200px
+  }
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .toggle-text {
+    margin:20px;
+    margin-bottom: 60px;
+  }
+  .toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: -30px;
+  }
+  .toggle__input {
+    display: none;
+  }
+  .toggle__label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 34px;
+    background-color: crimson;
+    position: relative;
+    cursor: pointer;
+  }
+  .toggle__ball {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .toggle__input:checked + .toggle__label .toggle__ball {
+    transform: translateX(26px);
+  }
+  .toggle.yearly .toggle__ball {
+    left: calc(100% - 30px);
+  }
+  .current-plan{
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 70px;
+  margin-left: 0px;
+  margin-top: -10px;
+  }
+  .current-plan h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -5px;
+  }
+  .offers{
+    margin-top: -150px;
+  }
+  button{
+    @include button-inactive;
+  }
+  button:hover{
+    @include button-active;
+  }
+  ul{
+    padding: 40
+  }
+  .starter h2,.pro h2,.enterprise h2{
+  @include Components-header2;
+  }
+  .starter h1,.pro h1,.enterprise h1{
+    @include Components-header1;
+  }
+  .starter button{
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  .pro button{
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  .enterprise button{
+    margin-top: 60px;
+    margin-left: 80px;
+  }
+  .active-users{
+    border: 2px solid #979393;
+    width: 270px;
+    margin-left: 40px;
+    height: 60px;
+    border-radius: 4px;
+  }
+  .active-users p{
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .custom-list {
+    list-style: none;
+    padding-left: 20px;
+  }
+  .custom-list li::before {
+    content: "●";
+    color: crimson;
+    display: inline-block;
+    width: 1em;
+    margin-right: 5px;
+  }
+  h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
