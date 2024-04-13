@@ -6,7 +6,7 @@ const Pro = () => {
             <h1>$99/month</h1>
             <p>2500 MAUs</p>
             <ul>
-                <li>5000 MAUs</li>
+                <li>All starter features plus:</li>
                 <li>10 projects</li>
                 <li>Unlimited guides</li>
                 <li>Unlimited flows</li>
